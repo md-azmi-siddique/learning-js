@@ -8,7 +8,7 @@ var isBanana = true
 
 //printing variables 
 console.log(bananaPrice);
-console.log(bananaPriceString);
+console.log(bananaPriceString); 
 console.log(bananaPriceFloat);
 console.log(bananaName);
 console.log(isBanana);
