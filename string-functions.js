@@ -11,7 +11,7 @@ console.log(intro.split("I"));
 //converting string into number
 var number1 = 25;
 var number2 = 15.5;
-var number2 = parseFloat(number2); //type casting a string into number
+var number2 =  (number2); //type casting a string into number
 console.log(number1+number2)
 
 //converting a number into string
