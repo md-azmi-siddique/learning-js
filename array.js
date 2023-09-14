@@ -1,4 +1,4 @@
-var arrayNumber = [1,2,3,4,5];
+var arrayNumber = [1,2,3,4,5,6,65,67,69,76,86,23,435,35,353,3,535,35,34,5];
 console.log(arrayNumber)
 
 arrayNumber[1] = 10;
@@ -31,3 +31,7 @@ console.log("length is: "+arrayNumber.length)
 arrayNumber.shift()
 console.log(arrayNumber)
 console.log("length is: "+arrayNumber.length)
+
+//slice operation
+var newNumber = arrayNumber.slice(2,10)
+console.log(newNumber)
