@@ -15,12 +15,12 @@ var phoneNo = "phone"
 var phone = student[phoneNo]
 console.log(phone)
 
-//updating propery of a object
+//updating property of a object
 //use the same process as accessing the property
 student.phone = 2222
 console.log(student)
 
-//adding a new property of a onject
+//adding a new property of a object
 //use the same process as accessing the property
 student.mark = 100
 console.log(student)

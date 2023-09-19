@@ -18,11 +18,12 @@
 //         return 1;
 //     }
 //     else{
-//         return fibo(n-1)+ fibo(n-2);
+//         return fibo(n-1) + fibo(n-2);
 //     }
 // }
 
-//fibonacci series recursve way
+//fibonacci series recursive way
+
 function fibonacci(n)
 {
     if(n == 0)
@@ -42,4 +43,4 @@ function fibonacci(n)
 }
 
 let value = fibonacci(10)
-console.log(value)
+console.log(value) 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>LIST</h1>
+        <ul id="list">
+            <li id="first" class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, totam modi doloremque nihil sequi ducimus culpa consectetur repellat laborum debitis explicabo. Facilis, deserunt tenetur. Voluptas libero autem eum labore nemo corporis reiciendis voluptate eveniet numquam quisquam pariatur vero architecto dolor voluptatum porro nam, dicta amet. Aliquid doloribus laudantium blanditiis eaque, itaque quod maiores at sapiente unde eveniet delectus placeat ea debitis velit corrupti atque maxime in vitae! Earum non et iusto, reprehenderit impedit incidunt ullam modi quaerat maiores magni sed possimus odit aperiam quasi quisquam! Quam a sunt impedit consequatur facere culpa possimus blanditiis rerum provident, suscipit ut at, qui laudantium? Repellendus recusandae fuga perferendis eum deleniti iste tempora cumque.</li>
+            <li class="item">Repudiandae, iusto enim quo voluptatem adipisci minus, voluptatum id at omnis sed nisi temporibus praesentium quos facilis. Soluta, consequuntur, fuga placeat, quae enim aliquid nisi distinctio nobis libero sed error nostrum explicabo. Commodi, repellendus pariatur. Voluptas ullam voluptatibus omnis veniam excepturi fuga reprehenderit officiis facilis ad magnam earum ratione nemo labore ut architecto consequuntur laborum consequatur totam adipisci, nihil maxime, repellendus temporibus odit. Vitae nostrum sequi aut deleniti consequatur a reiciendis eius dolore perferendis at rerum molestiae libero ducimus, deserunt voluptas, aperiam nihil ullam delectus. Ullam sequi nemo dolore tempora magnam, mollitia corrupti possimus iure omnis, expedita quam id hic beatae deleniti doloremque perspiciatis quaerat laboriosam consequuntur, reiciendis cum! Eaque!</li>
+            <li class="item">Aliquam quia exercitationem nostrum dignissimos temporibus atque debitis dolor officia, totam dicta itaque, eligendi eius natus reiciendis voluptatum quibusdam ipsam, inventore voluptas minus alias repellendus? Aut numquam voluptatibus sapiente illum enim ea officia voluptatem, corrupti praesentium quisquam ducimus. Quisquam et labore odio fugit ab saepe sequi repellendus architecto, officiis quam, eum autem repudiandae perferendis error reprehenderit ea minima consectetur illo quos atque aperiam sint. Illum facere perspiciatis aspernatur illo, et sed maiores quasi dolores necessitatibus vitae suscipit aliquid natus eligendi aut odio magni iure quaerat error aliquam voluptatem fuga possimus cum assumenda? Nobis libero reprehenderit sunt voluptas quas! Libero a laudantium ipsum unde, iste obcaecati culpa. Veritatis reprehenderit ex alias.</li>
+            <li class="item">Maiores quaerat sunt nulla in ea placeat, animi voluptas voluptates rerum, quod reprehenderit accusamus neque corporis quos ut quia nihil suscipit molestias excepturi iusto facilis. At rem cumque facilis eos accusamus tempora numquam dicta distinctio ipsum, omnis autem repudiandae unde accusantium magnam tenetur! Ducimus obcaecati nihil error magni maiores ea, eos reiciendis doloribus ipsum blanditiis odio quis ipsam minima inventore eius deleniti molestiae numquam dolore, earum saepe! Totam temporibus id alias iste. Perspiciatis unde molestiae consectetur temporibus voluptatibus corporis mollitia molestias, possimus veritatis perferendis, ab quaerat delectus illo harum. Sit, enim. Incidunt, quis, eligendi itaque delectus hic asperiores quas, vel reprehenderit commodi nisi quidem et aspernatur neque quisquam corrupti sunt.</li>
+            <li class="item">Repudiandae deserunt, ducimus hic rerum ab natus dolore qui excepturi vero omnis praesentium ratione ipsam consectetur facilis consequatur nobis aperiam quis, facere quaerat architecto animi sapiente reiciendis quam nemo? Dolorem blanditiis magni recusandae repellat possimus tempora nulla, alias harum dolor quam perspiciatis corporis impedit? Dolores ea possimus illum incidunt omnis. Sequi ducimus tempora beatae totam nam, sed enim reiciendis. Est, quas vero sunt delectus dolorem tempora adipisci sequi sit consectetur aspernatur nihil, voluptate provident repellendus! Harum ducimus molestias aspernatur a iste maxime quaerat, excepturi voluptate cupiditate nemo ipsam. Neque, delectus! Accusantium quod nihil voluptatibus ea consectetur corporis labore, eligendi quidem numquam ipsam voluptas saepe omnis consequatur expedita ullam rerum quibusdam.</li>
+            <li class="item">Suscipit nostrum porro tempore exercitationem ipsum illo neque tempora tenetur quibusdam minus cumque quos repellat ad nisi dolor quia ex alias sint, accusamus impedit doloremque possimus! Minima aliquam veritatis earum delectus eum iure commodi ipsum, quo voluptatem quae labore odit nam soluta expedita suscipit aspernatur eos voluptates quasi sapiente quidem provident! Incidunt cupiditate natus dicta, labore quos ex assumenda aspernatur repellat explicabo molestias non fugiat sit nemo, consequatur tempora corrupti! A aliquam quidem praesentium expedita sapiente? Soluta pariatur, eaque iste adipisci iure debitis itaque quos possimus. Illo iusto minima quae id quisquam! Rerum mollitia repellendus, sapiente labore doloribus similique veritatis? Assumenda nihil consectetur in facilis aliquam dolorum sed reiciendis iusto.</li>
+        </ul>
+        <button id="addNew"> Add Item</button>
+    </div>
+
+    <script>
+        // document.getElementById('first').addEventListener('click', function(event){
+        //     console.log("li called");
+
+        // })
+
+        document.getElementById('list').addEventListener('click', function(event){
+            //console.log(this, event.target);
+            event.target.parentNode.removeChild(event.target)
+         })
+
+        // document.getElementById('container').addEventListener('click', function(event){
+        //     console.log("container called");
+
+        // })
+
+        // var items = document.getElementsByClassName('item');
+        // for (let index = 0; index < items.length; index++) {
+        //     const element = items[index];
+        //     element.addEventListener('click', function(event){
+        //         event.target.parentNode.removeChild(event.target)
+        //     })
+        // }
+
+        document.getElementById('addNew').addEventListener('click', function(event){
+            var parent = document.getElementById('list');
+            var newItem = document.createElement('li');
+            newItem.innerText = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos cupiditate placeat accusantium consequuntur. Cum, praesentium laborum nobis nesciunt architecto, repellendus fugiat eum perspiciatis beatae blanditiis cupiditate necessitatibus voluptates, quae numquam. Excepturi, asperiores accusamus. Eligendi perspiciatis esse assumenda aliquam consectetur dolorem.'
+            parent.appendChild(newItem)
+        })
+    </script>
+</body>
+</html>
