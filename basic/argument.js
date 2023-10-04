@@ -1,5 +1,5 @@
 function addSum (){
-    console.log(arguments)
+    //console.log(arguments)
     var sum = 0;
     for (let index = 0; index < arguments.length; index++) {
         const element = arguments[index];
