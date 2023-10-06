@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Function bind()</h1>
+
+
+<p id="demo"></p>
+
+<p id="demo1"></p>
+
+<script>
+const student1 = {
+  id: 121,
+  phone: 1745,
+  firstName: "abir",
+  lastName: "hasan",
+  salary: 200,
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+  bill: function (amount) {
+    console.log(this); // Logs the context, should be student2
+    return this.salary - amount;
+  },
+};
+
+const student2 = {
+  id: 1264644,
+  phone: 36545644,
+  firstName: "rohim",
+  lastName: "hasan",
+  salary: 220,
+};
+
+const student3 = {
+  id: 1264644,
+  phone: 36545644,
+  firstName: "rohim",
+  lastName: "hasan",
+  salary: 5000,
+};
+
+// BIND
+const student2Bill = student1.bill.bind(student2);
+document.getElementById("demo").innerHTML = student2Bill(100);
+
+const student3Bill = student1.bill.bind(student3);
+document.getElementById("demo1").innerHTML = student3Bill(1050);
+</script>
+
+</body>
+</html>

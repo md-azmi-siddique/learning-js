@@ -1,3 +1,4 @@
+//when passing no perameter on function call
 function addSum (){
     //console.log(arguments)
     var sum = 0;
