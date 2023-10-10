@@ -2,6 +2,7 @@ const fun1 = (name, age, task) =>{
     console.log(name)
     console.log(age)
     task()
+    console.log('===================')
 
 }
 
