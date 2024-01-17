@@ -15,4 +15,4 @@ const washHand = () =>{
 }
 
 fun1("mt", 45, takeShower);
-fun1("m;lmc", 5, washHand);
+fun1("mlmc", 5, washHand);

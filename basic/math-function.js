@@ -1,7 +1,7 @@
 //finding absoulate number
 var num = -5;
 var absolute_num = Math.abs(num);
-console.log("Absoulate: " + absolute_num);
+console.log("Absulote: " + absolute_num);
 
 //round
 var num = 50.49;

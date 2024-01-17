@@ -4,6 +4,7 @@ const student = {
     firstName: "abir",
     lastName: 'hasan',
     billMoney: 200,
+    phone: 25852,
     fullName: function(){
         return this.firstName + ' ' + this.lastName;
     },
@@ -13,6 +14,8 @@ const student = {
 };
 
 console.log(student);
+
+console.log(`**********************`);
 
 const {id} = student;
 const {fullName} = student;

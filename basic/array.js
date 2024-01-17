@@ -16,12 +16,12 @@ else{
 //push operation
 arrayNumber.push(100, 8900, 6354)
 console.log("Pushing new element on the last to the array: " + arrayNumber)
-console.log("length is: "+arrayNumber.length)
+console.log("length is after pushing: "+arrayNumber.length)
 
 //pop operation
 arrayNumber.pop()
 console.log("Poping the last element: "+ arrayNumber)
-console.log("length is: "+arrayNumber.length)
+console.log("length is after poping: "+arrayNumber.length)
 
 //unshift operation - adding on front
 arrayNumber.unshift(0, 200, 400)
@@ -37,4 +37,4 @@ console.log("length is: "+arrayNumber.length)
 //(starting position, till before last position)
 var arrayNumber1 = [1,2,3,4,5,6,7,8,9,10,11,12,13];
 var newNumber = arrayNumber1.slice(2,3)
-console.log(newNumber)
+console.log('slices new number: '+newNumber)

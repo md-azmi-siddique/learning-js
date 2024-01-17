@@ -1,12 +1,12 @@
-// const numbers = [1,2,3,4,6,7,8,9]
+const numbers = [1,2,3,4,6,7,8,9]
 
-// const myFun = (value, index, array) =>{
-//     return value * 2
-// }
+const myFun = (value, index, array) =>{
+    return value * 2
+}
 
-// let value = numbers.map(myFun) 
-// console.log('number: ' + numbers)
-// console.log('with map : ' + value)  //value * 2
+let value = numbers.map(myFun) 
+console.log('number: ' + numbers)
+console.log('with map : ' + value)  //value * 2
 
 const student = [
     {id: 21, name:'ane'},
